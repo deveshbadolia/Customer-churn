@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
-model = pickle.load(open(r'C:\Users\deves\best_model.pkl','rb'))
+model = pickle.load(open('best_model.pkl','rb'))
 
 st.set_page_config(layout="wide")
 
